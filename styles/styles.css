@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #103b44;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-vet {
+    background-color: #103b44;
+    padding-left: 160px;
+}
+
+.credentials {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.credentials input {
+    background: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    border: 0;
+    border-bottom: 2px solid gray;
+    padding-bottom: 8px;
+    outline: none;
+    width: 128%;
+}
+
+.header button {
+    align-self: flex-start;
+}
+
+.main {
+    display: flex;
+    height: 68vh;
+}
+
+.navbar {
+    padding-top: 40px;
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.content {
+    flex-basis: 70%;
+    padding: 80px 0 0 20px;
+}
+
+.navbar a {
+    border: 1px solid #103b44;
+    color: #103b44;
+    border-radius: 8px;
+    width: 90%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #103b44;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 28px;
+    width: 90%;
+}
+
+.formulario input {
+    border: none;
+    border-bottom: 2px solid gray;
+    padding-bottom: 8px;
+    outline: none;
+}
+
+.footer {
+    background-color: #103b44;
+    text-align: center;
+    color: #889be7;
+    padding: 24px 0 12px 0;
+}
+
+.footer span {
+    font-weight: bold;
+}
